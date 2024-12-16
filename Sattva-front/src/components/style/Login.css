@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #e3f2fd; /* Cor de fundo suave */
+  }
+  
+  form {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 15px;
+    border: 2px solid #72a24d; /* Borda elegante */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 28px;
+    color: #72a24d; /* Cor do título */
+    font-family: 'Georgia', serif;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555555;
+  }
+  
+  input[type="email"], input[type="password"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: #72a24d; /* Cor do botão */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #5c8a33; /* Cor do botão ao passar o mouse */
+  }
+  
+  footer {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #555555;
+    text-align: center;
+  }
+  

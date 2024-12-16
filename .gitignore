@@ -1,0 +1,4 @@
+Sattva-front/node_modules/
+Sattva/target/
+Banco/*.bak
+*.env
